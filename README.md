@@ -48,4 +48,5 @@
 
 ## Tasks:
 Read file and list each name, phone number and email separately in lists.
+-----------------------------
 Description was written by :Rana0Ahmed
