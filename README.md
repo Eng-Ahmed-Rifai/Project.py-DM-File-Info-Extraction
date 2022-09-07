@@ -1,4 +1,4 @@
-# Extract_infos_from_Files-AI-Task
+# Extract_infos_from_Files-AI-Task Using Regular Expression
 `Date`: 7 sep 22
 
 `Subject`: AI Pipeline
@@ -48,5 +48,5 @@
 
 ## Tasks:
 Read file and list each name, phone number and email separately in lists.
------------------------------
+------------
 Description was written by :Rana0Ahmed
