@@ -1,52 +1,51 @@
-# Extract infos from Files-AI-Task Using Regular Expression
-`Date`: 7 sep 22
+# Mini Project: Data Mining - Scraping/Extracting Information from Files
 
-`Subject`: AI Pipeline
+This mini project focuses on extracting specific information from files using regular expressions. It demonstrates the usage of regular expressions in data mining and the benefits they offer in data science projects. The code follows a waterfall method and employs various libraries for file handling and regex operations.
 
-## content:
-- AI Pipeline
-- Regular expression (regex)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### DevSecOps
-- DevSecOps is the culture of integrating security practices within the DevOps process. Simply it is DevOps with the lens of security. 
-- Doing DevOps with no preference for security is not a complete DevOps. DevOps cycle with added Security is DevSecOps. A good devsecops approach brings together tools, processes, and culture.
+## Code Description
 
-### MLOps
-- In short DevOps mean, shorten the process of software development lifecycle by providing the service of continuous integration and continuous delivery in production.
-- DevOps = Development + Operation.
-- MLOps = Machine Learning + Development + Operation.
+The code in this project performs the following tasks:
 
-### DataOps
-- DataOps is a collection of technical practices, workflows, cultural norms, and architectural patterns that enable:
- - Rapid innovation and experimentation delivering new insights to customers with increasing velocity.
- - Extremely high data quality and very low error rates.
- - Collaboration across complex arrays of people, technology, and environments.
- - Clear measurement, monitoring, and transparency of results.
- 
- ### Microservices
- - Microservices are an architectural and organizational approach to software development where software is composed of small independent services that communicate over well-defined APIs.
- - Microservices architectures make applications easier to scale and faster to develop, enabling innovation and accelerating time-to-market for new features.
- 
- ### Web Service (WS)
-  - a service offered by an electronic device to another electronic device, communicating with each other via the Internet.
-  
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
-## AI Pipline :
-- Ensure using AI (Verify).
-- Data collection (Data gathering, Data acquiring).
-- Data preprocessing.
-- Feature engineering.
-- Model selection  (Machine learning = Advanced statistics = Data modeling)
-- Fitting.
-- Training.
-- Testing          
-- Save model.
-- Documentation.
-- Integration.
-- Monitoring.
-- Maintenance.
+1. Sort names that end with a dot and extract them into a new file.
+2. Sort numbers by their company key numbers and extract them into a new file.
+3. Sort and collect emails and extract them into a new file.
+4. Count occurrences of various elements in the data.
+5. Handle the current working directory automatically.
 
-## Tasks:
-Read file and list each name, phone number and email separately in lists.
+## Libraries Used
 
-- Description was written by :Rana0Ahmed
+The code utilizes the following libraries:
+
+- `random`: Used for generating a random phone number.
+- `re` (regular expression): Used for pattern matching and extracting information from the data file.
+- `os`: Used for handling file operations and managing the current working directory.
+
+## Benefits of Regular Expressions in Data Science
+
+Regular expressions provide powerful pattern matching capabilities, making them valuable in data science tasks. Some benefits of using regular expressions include:
+
+- Efficiently searching and extracting specific patterns from text data.
+- Simplifying complex string manipulations and data extraction tasks.
+- Enabling flexible and customizable data cleaning and preprocessing.
+- Facilitating feature extraction from unstructured text data.
+
+## Code Structure
+
+The code follows a waterfall method, where each step is sequentially executed and the results are processed accordingly. The steps involved are as follows:
+1. Reading the input file and loading its content.
+2. Applying regular expressions to extract specific patterns (names, numbers, emails) from the file.
+3. Sorting and organizing the extracted data.
+4. Writing the sorted data into separate output files.
+5. Counting and displaying the results.
+
+## Difference between Waterfall Method and Functions Coding Methods
+
+The waterfall method, as demonstrated in this code, involves a step-by-step sequential execution of tasks. Each task is performed in a specific order, and the output of one task becomes the input for the next. This method is suitable for linear workflows and when the order of operations matters.
+
+On the other hand, functions coding methods involve organizing the code into reusable functions. Each function performs a specific task, and they can be called and combined as needed. Functions coding methods offer modularity, code reusability, and flexibility for complex projects with multiple interdependent components.
+
+Please note that the code can be further optimized and improved based on specific requirements.
+
+## Author
+
+This mini project was developed by Ahmed Rifai.
